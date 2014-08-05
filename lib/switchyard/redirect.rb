@@ -58,12 +58,12 @@ module Switchyard
             "config/environment"       => "",
             "config/environments"      => "",
             "config/database"          => "",
+            "config/secrets"           => "",
 
             "config"                   => "rails/",
             "config/initializers"      => "rails/",
             "config/locales"           => "rails/",
-            "config/routes.rb"         => "rails/",
-            "config/secrets"           => "rails/"
+            "config/routes.rb"         => "rails/"
         }
       end
     end
