@@ -56,7 +56,7 @@ module Switchyard
       end
 
       def app_config_layer
-        @app_config_layer ||= persistence_layer + "config"
+        @app_config_layer ||= presentation_layer + "config"
       end
 
       def run
